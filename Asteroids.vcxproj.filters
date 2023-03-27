@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="screenshot.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (1).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (2).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (3).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (4).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (5).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (6).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (7).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (8).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (9).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (10).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (11).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (12).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (13).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (14).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (15).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (16).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (17).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (18).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (19).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (20).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (21).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (22).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (23).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (24).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (25).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (26).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (27).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (28).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (29).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (30).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (31).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (32).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (33).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (34).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (35).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (36).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (37).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (38).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (39).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (40).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (41).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (42).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (43).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (44).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (45).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (46).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (47).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (48).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (49).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (50).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (51).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (52).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (53).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (54).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (55).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (56).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (57).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (58).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (59).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (60).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (61).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (62).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (63).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (64).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (65).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (66).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (67).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (68).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (69).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (70).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Explosion\frame (71).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\asteroid.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\enemy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\enemy2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\laser.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Nebula Blue.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\ship.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\ship2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\ship-default.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Stars Small_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Stars.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Sounds\enemy-shoot.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\explosion.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Assets\Sounds\shoot.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Actor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimSpriteComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Asteroid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGSpriteComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CircleComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnemyLaser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Explosion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Laser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MoveComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PhysicsInputComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PhysicsMoveComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ship.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SoundManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpriteComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TileMapComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Actor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AnimSpriteComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Asteroid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BGSpriteComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CircleComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EnemyLaser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Explosion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Laser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MoveComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PhysicsInputComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PhysicsMoveComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ship.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SoundManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SpriteComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TileMapComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

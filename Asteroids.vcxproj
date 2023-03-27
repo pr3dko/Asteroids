@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{8c716339-ff1d-44e9-b8e3-e83c5b4acc6c}</ProjectGuid>
+    <RootNamespace>Asteroids</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\vclib\SDL2_image-2.6.3\include;C:\vclib\SDL2_ttf-2.20.2\include;C:\vclib\SDL2_mixer-2.6.3\include;C:\vclib\SDL2-2.26.4\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\vclib\SDL2-2.26.4\lib\x64;C:\vclib\SDL2_ttf-2.20.2\lib\x64;C:\vclib\SDL2_mixer-2.6.3\lib\x64;C:\vclib\SDL2_image-2.6.3\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_ttf.lib;SDL2_mixer.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\asteroid.png" />
+    <Image Include="Assets\enemy.png" />
+    <Image Include="Assets\enemy2.png" />
+    <Image Include="Assets\Explosion\frame (1).png" />
+    <Image Include="Assets\Explosion\frame (10).png" />
+    <Image Include="Assets\Explosion\frame (11).png" />
+    <Image Include="Assets\Explosion\frame (12).png" />
+    <Image Include="Assets\Explosion\frame (13).png" />
+    <Image Include="Assets\Explosion\frame (14).png" />
+    <Image Include="Assets\Explosion\frame (15).png" />
+    <Image Include="Assets\Explosion\frame (16).png" />
+    <Image Include="Assets\Explosion\frame (17).png" />
+    <Image Include="Assets\Explosion\frame (18).png" />
+    <Image Include="Assets\Explosion\frame (19).png" />
+    <Image Include="Assets\Explosion\frame (2).png" />
+    <Image Include="Assets\Explosion\frame (20).png" />
+    <Image Include="Assets\Explosion\frame (21).png" />
+    <Image Include="Assets\Explosion\frame (22).png" />
+    <Image Include="Assets\Explosion\frame (23).png" />
+    <Image Include="Assets\Explosion\frame (24).png" />
+    <Image Include="Assets\Explosion\frame (25).png" />
+    <Image Include="Assets\Explosion\frame (26).png" />
+    <Image Include="Assets\Explosion\frame (27).png" />
+    <Image Include="Assets\Explosion\frame (28).png" />
+    <Image Include="Assets\Explosion\frame (29).png" />
+    <Image Include="Assets\Explosion\frame (3).png" />
+    <Image Include="Assets\Explosion\frame (30).png" />
+    <Image Include="Assets\Explosion\frame (31).png" />
+    <Image Include="Assets\Explosion\frame (32).png" />
+    <Image Include="Assets\Explosion\frame (33).png" />
+    <Image Include="Assets\Explosion\frame (34).png" />
+    <Image Include="Assets\Explosion\frame (35).png" />
+    <Image Include="Assets\Explosion\frame (36).png" />
+    <Image Include="Assets\Explosion\frame (37).png" />
+    <Image Include="Assets\Explosion\frame (38).png" />
+    <Image Include="Assets\Explosion\frame (39).png" />
+    <Image Include="Assets\Explosion\frame (4).png" />
+    <Image Include="Assets\Explosion\frame (40).png" />
+    <Image Include="Assets\Explosion\frame (41).png" />
+    <Image Include="Assets\Explosion\frame (42).png" />
+    <Image Include="Assets\Explosion\frame (43).png" />
+    <Image Include="Assets\Explosion\frame (44).png" />
+    <Image Include="Assets\Explosion\frame (45).png" />
+    <Image Include="Assets\Explosion\frame (46).png" />
+    <Image Include="Assets\Explosion\frame (47).png" />
+    <Image Include="Assets\Explosion\frame (48).png" />
+    <Image Include="Assets\Explosion\frame (49).png" />
+    <Image Include="Assets\Explosion\frame (5).png" />
+    <Image Include="Assets\Explosion\frame (50).png" />
+    <Image Include="Assets\Explosion\frame (51).png" />
+    <Image Include="Assets\Explosion\frame (52).png" />
+    <Image Include="Assets\Explosion\frame (53).png" />
+    <Image Include="Assets\Explosion\frame (54).png" />
+    <Image Include="Assets\Explosion\frame (55).png" />
+    <Image Include="Assets\Explosion\frame (56).png" />
+    <Image Include="Assets\Explosion\frame (57).png" />
+    <Image Include="Assets\Explosion\frame (58).png" />
+    <Image Include="Assets\Explosion\frame (59).png" />
+    <Image Include="Assets\Explosion\frame (6).png" />
+    <Image Include="Assets\Explosion\frame (60).png" />
+    <Image Include="Assets\Explosion\frame (61).png" />
+    <Image Include="Assets\Explosion\frame (62).png" />
+    <Image Include="Assets\Explosion\frame (63).png" />
+    <Image Include="Assets\Explosion\frame (64).png" />
+    <Image Include="Assets\Explosion\frame (65).png" />
+    <Image Include="Assets\Explosion\frame (66).png" />
+    <Image Include="Assets\Explosion\frame (67).png" />
+    <Image Include="Assets\Explosion\frame (68).png" />
+    <Image Include="Assets\Explosion\frame (69).png" />
+    <Image Include="Assets\Explosion\frame (7).png" />
+    <Image Include="Assets\Explosion\frame (70).png" />
+    <Image Include="Assets\Explosion\frame (71).png" />
+    <Image Include="Assets\Explosion\frame (8).png" />
+    <Image Include="Assets\Explosion\frame (9).png" />
+    <Image Include="Assets\laser.png" />
+    <Image Include="Assets\Nebula Blue.png" />
+    <Image Include="Assets\ship-default.png" />
+    <Image Include="Assets\ship.png" />
+    <Image Include="Assets\ship2.png" />
+    <Image Include="Assets\Stars Small_2.png" />
+    <Image Include="Assets\Stars.png" />
+    <Image Include="screenshot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Sounds\enemy-shoot.wav" />
+    <Media Include="Assets\Sounds\explosion.wav" />
+    <Media Include="Assets\Sounds\shoot.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Actor.cpp" />
+    <ClCompile Include="src\AnimSpriteComponent.cpp" />
+    <ClCompile Include="src\Asteroid.cpp" />
+    <ClCompile Include="src\BGSpriteComponent.cpp" />
+    <ClCompile Include="src\CircleComponent.cpp" />
+    <ClCompile Include="src\Component.cpp" />
+    <ClCompile Include="src\Enemy.cpp" />
+    <ClCompile Include="src\EnemyLaser.cpp" />
+    <ClCompile Include="src\Explosion.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\InputComponent.cpp" />
+    <ClCompile Include="src\Laser.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Math.cpp" />
+    <ClCompile Include="src\MoveComponent.cpp" />
+    <ClCompile Include="src\PhysicsInputComponent.cpp" />
+    <ClCompile Include="src\PhysicsMoveComponent.cpp" />
+    <ClCompile Include="src\Random.cpp" />
+    <ClCompile Include="src\Ship.cpp" />
+    <ClCompile Include="src\SoundManager.cpp" />
+    <ClCompile Include="src\SpriteComponent.cpp" />
+    <ClCompile Include="src\TileMapComponent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Actor.h" />
+    <ClInclude Include="src\AnimSpriteComponent.h" />
+    <ClInclude Include="src\Asteroid.h" />
+    <ClInclude Include="src\BGSpriteComponent.h" />
+    <ClInclude Include="src\CircleComponent.h" />
+    <ClInclude Include="src\Component.h" />
+    <ClInclude Include="src\Enemy.h" />
+    <ClInclude Include="src\EnemyLaser.h" />
+    <ClInclude Include="src\Explosion.h" />
+    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\InputComponent.h" />
+    <ClInclude Include="src\Laser.h" />
+    <ClInclude Include="src\Math.h" />
+    <ClInclude Include="src\MoveComponent.h" />
+    <ClInclude Include="src\PhysicsInputComponent.h" />
+    <ClInclude Include="src\PhysicsMoveComponent.h" />
+    <ClInclude Include="src\Random.h" />
+    <ClInclude Include="src\Ship.h" />
+    <ClInclude Include="src\SoundManager.h" />
+    <ClInclude Include="src\SpriteComponent.h" />
+    <ClInclude Include="src\TileMapComponent.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
